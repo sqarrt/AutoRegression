@@ -25,8 +25,8 @@ private:
     QList<double> testSelect;
     double calcM(int a,int b);
     double get(int t,QList<double> &set);
-    void calcMatrix();
-    void solveMatrix();
+    void fillMatrix();
+    void fillRatios();
     void fillPredictionSelect();
     double getDelta();
 

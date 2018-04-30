@@ -51,7 +51,7 @@ QList<double>& AutoRegression::getResults()
     this->fillRatios();
     for(int i = 0; i < this->predictionLength; i ++)
     {
-        result.append(get(result.size,&result));
+        result.append(get(result.size(),result));
     }
     return result;
 }
